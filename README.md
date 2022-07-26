@@ -30,7 +30,7 @@ python reg.py -f DATA/DOLW7_0.png -m DATA/DOLW7_1.png -ma DATA/DOLW7_m.png -o ou
 https://github.com/TongXin-CASIA/Damaged_Section
 
 ### Label the defect
-You can choose to label folds or tears manually, or use the following tools to label automatically.
+You can choose to label folds or cracks manually, or use the following tools to label automatically.
 
 https://github.com/jabae/detectEM
 
