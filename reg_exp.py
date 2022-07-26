@@ -73,7 +73,7 @@ def draw_field(field):
 def ea_generate_field(img_fixed_kp, img_moving_kp, img_moving, img_tr=None):
     torch.random.manual_seed(0)
     np.random.seed(0)
-    det = SuperPoint(0.015, batch_sz=8, device="cuda")
+    det = SuperPoint(0.015, batch_sz=8, device="cpu")
     det.detectAndCompute(np.random.random([128, 128]))
 
     kp_fixed, des_fixed = det.detectAndComputeMean(img_fixed_kp, scale=1, mask=None)
@@ -92,7 +92,7 @@ def ea_generate_field(img_fixed_kp, img_moving_kp, img_moving, img_tr=None):
 def affine_generate_field(img_fixed_kp, img_moving_kp, img_moving):
     torch.random.manual_seed(0)
     np.random.seed(0)
-    det = SuperPoint(0.015, batch_sz=8, device="cuda")
+    det = SuperPoint(0.015, batch_sz=8, device="cpu")
     det.detectAndCompute(np.random.random([128, 128]))
 
     kp_fixed, des_fixed = det.detectAndComputeMean(img_fixed_kp, scale=1, mask=None)
