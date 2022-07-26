@@ -4,8 +4,9 @@ import numpy as np
 import ctypes
 from time import perf_counter
 
-if sys.platform.startswith("win"):
-    from wrinkle.WaveFront import wavefront
+# if sys.platform.startswith("win"):
+if False:
+    from EA.WaveFront import wavefront
 else:
     cdll = ctypes.CDLL(os.path.join(os.path.dirname(os.path.dirname(__file__)), "lib",
                                     "WaveFront_win.dll" if sys.platform.startswith("win") else "libWaveFront.so"))
