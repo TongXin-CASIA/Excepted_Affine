@@ -2,7 +2,7 @@
 Expected Affine: a registration method for damaged section in ssEM
 
 ![Python 3.9](https://img.shields.io/badge/python-3.9-green.svg?style=plastic) ![PyTorch 1.10.0](https://img.shields.io/badge/pytorch-1.10.0-green.svg?style=plastic) 
-![OpenCV 3.4](https://img.shields.io/badge/opencv-3.4-green)![Qt 5](https://img.shields.io/badge/Qt-5-green)
+![OpenCV 3.4](https://img.shields.io/badge/opencv-3.4-green?style=plastic)![Qt 5](https://img.shields.io/badge/Qt-5-green?style=plastic)
 ![license GNU](https://img.shields.io/github/license/TongXin-CASIA/Excepted_Affine?style=plastic)
 ## Using the Code
 ### Requirements
