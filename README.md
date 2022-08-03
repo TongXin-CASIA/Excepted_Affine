@@ -15,8 +15,13 @@ In addition to the above libraries, the python environment can be set as follows
 conda create -n Exception_Affine python=3.9
 conda activate Exception_Affine
 pip3 install opencv-python torch
+pip3 install scipy pillow scikit-image matplotlib
 ```
-
+or you can use 
+```shell
+conda env create -f .\ExceptAffine.yml
+```
+in Windows 10 to create the environment.(Attention: opencv_world3412.dll is needed.)
 ### Register two sections
 ```Register
 python reg.py -f DATA/DOLW7_0.png -m DATA/DOLW7_1.png -ma DATA/DOLW7_m.png -o output.png
