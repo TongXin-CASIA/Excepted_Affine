@@ -21,7 +21,7 @@ or you can use
 ```shell
 conda env create -f .\ExceptAffine.yml
 ```
-in Windows 10 to create the environment.(Attention: opencv_world3412.dll is needed.)
+in Windows 10 to create the environment.(Attention: opencv_world3412.dll is needed, and there is a release verion in here https://pan.baidu.com/s/1HuA1C57e3oPZ0lhgAzJjWA?pwd=EAEA. The access code is EAEA.)
 ### Register two sections
 ```Register
 python reg.py -f DATA/DOLW7_0.png -m DATA/DOLW7_1.png -ma DATA/DOLW7_m.png -o output.png
